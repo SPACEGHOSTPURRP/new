@@ -365,8 +365,6 @@ if isfile then
 	end
 end
 
-Stand("IMPORTANT","JOIN DIRTY MONEY BOYS","LOL:",cordCode,"","GG",true)
-repeat wait() until RunDude == true
 
 -- Variables: ------------------------|
 local player = cmdlp
@@ -462,7 +460,7 @@ function loaddefaults()
     hotkeyesp = ''
     hotkeyaimbot = ''
     prefix = '.'
-    prompt = 'CMD-X Prompt >'
+    prompt = 'DIRTY MONEY-Prompt >'
     enterCMD = {}
     gotoPos = 0
     gotoPosSide = 0
@@ -794,7 +792,7 @@ if AntiCheat.OneTimeScramble then
 	Unnamed.Name = math.random(1,100000)
 end
 
-local AudioIds = {5032588119}
+local AudioIds = {6342062644}
 
 if AntiCheat.IntroAudioOff == false then
 	local Sound2 = Instance.new("Sound", game:GetService("PolicyService"))
@@ -1054,7 +1052,7 @@ cmd.BorderSizePixel = 0
 cmd.Position = UDim2.new(-0, 0, 0, 0)
 cmd.Size = UDim2.new(0, 341, 0, 35)
 cmd.Font = Enum.Font.Code
-cmd.PlaceholderText = "Enter CMD here"
+cmd.PlaceholderText = "cmd here"
 cmd.Text = ""
 cmd.TextWrapped = true
 cmd.TextColor3 = Color3.fromRGB(255,255,255)
@@ -1112,7 +1110,7 @@ output3.BackgroundTransparency = 1
 output3.Position = UDim2.new(0.0157605428, 0, 0.639753819, 0)
 output3.Size = UDim2.new(0, 500, 0, 27)
 output3.Font = Enum.Font.Code
-output3.Text = "Made by "..DevCords[1].." and "..DevCords[2]
+output3.Text = "Made by "DIRTY MONEY BOYS" and "CLOWN HAMZA[2]
 output3.TextColor3 = Color3.new(0.698039, 0.698039, 0.698039)
 output3.TextSize = 16
 output3.TextXAlignment = Enum.TextXAlignment.Left
@@ -1131,7 +1129,7 @@ output4.TextSize = 16
 output4.TextXAlignment = Enum.TextXAlignment.Left
 output4.TextWrapped = true
 output4.TextTruncate = Enum.TextTruncate.AtEnd
-local Hints = {"Did you know you can execute multiple commands with ';;'?","Did you know you can create a wait using timedcmd in loops?","You can find commands using 'cmds'.","You can change your prefix by doing 'prefixnew (key)'","Did you know CMD-X was created in October 2019?"}
+local Hints = {"Did you know that me and Hamza fucked eddys mom? ';;'?","Did u know Hamza is a clown?","Did u know aqua is a god?.","PRAISE AQUA","DIRTY MONEY BOYS ONTOP"}
 output4.Text = Hints[math.random(1,#Hints)]
 
 output5.Name = "output5"
