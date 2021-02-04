@@ -2,7 +2,6 @@
 while not game:IsLoaded() or not game:GetService("CoreGui") or not game:GetService("Players").LocalPlayer or not game:GetService("Players").LocalPlayer.PlayerGui do wait() end
 -- Constraints: -----------------------|
 local ver = "1.9.9c"
-local cordCode = "https://discord.gg/exe"
 ---------------------------------------|
 Parents = {[1] = game:GetService("CoreGui"):FindFirstChild("RobloxGui"), [2] = game:GetService("CoreGui"), [3] = game:GetService("Players").LocalPlayer.PlayerGui}
 if Parents[1] then
@@ -353,7 +352,7 @@ end)
 setreadonly(mt, true)--]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Version",true))()
 if Current and Current.Version ~= ver then
-	Stand("CMD-X is not up to par!","CMD-X cannot run.","","Your version: "..ver,"Current version: "..Current.Version,"Run Anyway",true)
+	Stand("GAY","ROFL","","Your version: "..ver,"Current version: "..Current.Version,"Run Anyway",true)
 	while not RunDude do
 		wait()
 	end
@@ -366,7 +365,7 @@ if isfile then
 	end
 end
 
-Stand("IMPORTANT","CMD-X's server got deleted by discord. F","Join the new one at:",cordCode,"","I joined!",true)
+Stand("IMPORTANT","JOIN DIRTY MONEY BOYS","LOL:",cordCode,"","GG",true)
 repeat wait() until RunDude == true
 
 -- Variables: ------------------------|
@@ -381,66 +380,23 @@ local Mouses = cmdlp:GetMouse()
 cmdm = Mouses
 -- we dont have this many owners just alts
 local Devs = {
-	["progamer421minus1"] = "Owner",
-	["octoberboy68plus1"] = "Owner",
-	["pigeoncult"] = "Owner",
-	["knifemarks"] = "Owner",
-	["CMD_X"] = "Owner",
-	["Curvn"] = "Dev",
+	["monkeygaming8543"] = "Owner",
+	["3ZBB"] = "Owner",
+	["forzaaaaaaaaa"] = "Owner",
+	["caffgrim"] = "Owner",
+	["kidonks"] = "Owner",
+	["RealRX"] = "Dev",
 	["4444445678102"] = "Owner",
 }
 
 DevCords = {
-	"pigeon#8951";
-	"fini#7057";
-	"adam᲼#2002";
+	"aqua#1920";
+	"fz#0777";
+	"GLO#5505";
 }
 
 local Donors = {
-	["8avu"] = "1",
-	["0ccoy"] = "1",
-	["Zuhqu"] = "1",
-	["NitoOV"] = "1",
-	["LtsDank"] = "1",
-	["614SHAD"] = "1",
-	["tyswrld"] = "1",
-	["teejay6x"] = "1",
-	["Yarhibol"] = "1",
-	["Schewpid"] = "1",
-	["goresyard"] = "1",
-	["HyperLink3"] = "1",
-	["OFFTheBatter"] = "1",
-	["DisturbedCult"] = "1",
-	["hellavzn"] = "1",
-	["DAMAGlNG"] = "1",
-	["Zukkoe"] = "1",
-	["Missingno74"] = "1",
-	["HelIaSketchers"] = "1",
-	["amazinggeorgedude"] = "1",
-	["TheBlankProdigy"] = "1",
-	["cxpoxxo"] = "1",
-	["Everdurings"] = "1",
-	["M3tamophosis"] = "1",
-	["vurghen"] = "1",
-
-	["8dqt"] = "2",
-	["skrask"] = "2",
-	["xniped"] = "2",
-	["KinggSeaa"] = "2",
-	["ClydeGrant"] = "2",
-	["Fxalling_Love"] = "2",
-	["emovert"] = "2",
-	["shifde"] = "2",
-	["RusskiSlavv"] = "2",
 	
-	["fusionwhy"] = "Custom1",
-	["InternetSpeeds"] = "Custom2",
-	["TheChosenOne123"] = "Custom3",
-	["Irritatory"] = "Custom4",
-	["DuBz_Bubby"] = "Custom5", -- top donor {$200}
-	["YanniLove"] = "Custom6",
-	["manufacturedlife"] = "Custom7",
-
 }
 
 local Tier = {
